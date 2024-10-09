@@ -7,10 +7,8 @@ class Solution {
 
                 if(ch == '['){
                     open++;
-                }else{
-                    if(open>0){
-                        open--;
-                    }
+                }else if(open>0){
+                    open--;
                 }
             }
 
